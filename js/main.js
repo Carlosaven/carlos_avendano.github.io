@@ -6,3 +6,6 @@ function pdfDownload() {
   window.open(rutaPDF, "_blank");
 }
 
+function mostrarFormulario() {
+  document.getElementById("formulario").style.display = "block";
+}
